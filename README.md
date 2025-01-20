@@ -12,6 +12,9 @@ If you're here, you probably know what Shabbat, Yom Tov, and Home Assistant all 
 
 In this repository I'll explain how to set up sensors and automations driven by your local Shabbat times. 
 
+
+# Part 1: Configuring Your Shabbat & Yom Tov Time Sensors
+
 ## Data Sources
 
 Firstly, let me explain what sources were relying on to make these work:
@@ -84,7 +87,7 @@ Note that you can use Jerusalem's specific candlelighting *minhag* and even set 
 Full documentation for setting up the integration can be found on its [Github repository](https://github.com/rt400/Jewish-Sabbaths-Holidays?tab=readme-ov-file).
 
 
-## A Combined Shabbat & Yom Tov Sensor
+## A Combined Shabbat & Yom Tov Sensor (My Addition)
 
 Note that the Jewish Calendar add-on provides two binary sensors for whether it is currently Shabbat or Yom Tov.
 
@@ -133,7 +136,9 @@ But even if you define the helper sensors used on code, they will be available i
 
 To cover all eventualities, I actually created 3 downstream helper sensors (is it Shabbat? is it yom tov? Is it Shabbat or Yom Tov?). If you wanted a more advanced setting, you could even use multiple upstream sensors to have one available as a backup. However, for a simple implementation, I would say that that is probably not necessary, and the Jewish calendar add-on has been reliable enough for me at least
 
-## Using Your Shabbat Or Yom Sensor To Drive Automations
+# Part 2: Configuring Your Automations
+
+## Using Your Shabbat OR Yom Sensor To Drive Automations
 
 Here are the list of scenes that my wife and I have configured.
 
