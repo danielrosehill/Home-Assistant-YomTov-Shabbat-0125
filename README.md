@@ -17,7 +17,7 @@ In this repository I'll explain how to set up sensors and automations driven by 
 Firstly, let me explain what sources were relying on to make these work:
 
 [![View Website](https://img.shields.io/badge/View_Website-Hebcal-blue)](https://www.hebcal.com/home/category/general)
-[![View Github Repository](https://img.shields.io/badge/View_Repository-Jewish--Sabbaths--Holidays-green)](https://github.com/rt400/
+[![View Github Repository](https://img.shields.io/badge/View_Repository-Jewish--Sabbaths--Holidays-green)](https://github.com/rt400)
 
 [Hebcal](https://www.hebcal.com) does the holy work of providing an API for Jewish religious times!  
 
